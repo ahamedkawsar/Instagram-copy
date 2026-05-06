@@ -1,0 +1,140 @@
+/* common CSS */
+:root {
+  --color-primary: #e90024;
+}
+
+
+
+/* nav bar  */
+
+
+
+.navbar {
+  padding-top: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  gap: 74px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--color-primary);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icons img {
+  height: 24px;
+  width: 24px;
+}
+
+.btn-danger {
+  padding: 16px 42px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+}
+
+.btn-danger {
+  color: white;
+}
+
+
+
+/* Banner part */
+
+
+
+.container h1 {
+  width: 624px;
+  padding-top: 145px;
+  font-size: 65px;
+  font-weight: 600;
+}
+.container h1 span {
+  font-size: 65px;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.container p {
+  padding-top: 19px;
+  line-height: 26px;
+}
+
+
+
+/* counder part */
+
+
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.my-150 {
+  margin: 150px 0px;
+}
+
+.counter {
+  padding: 95px 118px;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  position: relative;
+}
+.vector-img {
+  position: absolute;
+  left: -36px;
+  bottom: -22px;
+  z-index: -1;
+}
+
+.sec-head {
+  text-align: center;
+  width: 751px;
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+.instra-work-content {
+  width: 424px;
+  border-radius: 30px;
+  box-shadow: 0px 15px 50px 0px #00000015;
+  padding: 82px 60px 89px 60px;
+  
+}
+h3 {
+  font-size: 25;
+  font-weight: 600;
+}
+.instra-work-content h3 {
+  padding: 42px 0px 30px 0px;
+}
+
+
+
+/* video part */
+
+.video-BG{
+  background-image:url(../img/video.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 326px 655px 308px 620px;
+  border-radius: 30px;
+}
+.video{
+  height: 183px;
+  width: 183px;
+  border-radius: 50%;
+  background-color: #e900231c;
+}
