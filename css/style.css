@@ -3,11 +3,7 @@
   --color-primary: #e90024;
 }
 
-
-
 /* nav bar  */
-
-
 
 .navbar {
   padding-top: 50px;
@@ -48,11 +44,7 @@
   color: white;
 }
 
-
-
 /* Banner part */
-
-
 
 .container h1 {
   width: 624px;
@@ -71,11 +63,7 @@
   line-height: 26px;
 }
 
-
-
 /* counder part */
-
-
 
 h2 {
   font-size: 45px;
@@ -110,7 +98,6 @@ h2 {
   border-radius: 30px;
   box-shadow: 0px 15px 50px 0px #00000015;
   padding: 82px 60px 89px 60px;
-  
 }
 h3 {
   font-size: 25;
@@ -120,21 +107,52 @@ h3 {
   padding: 42px 0px 30px 0px;
 }
 
-
-
 /* video part */
 
-.video-BG{
-  background-image:url(../img/video.png) ;
+.video-BG {
+  background-image: url(../img/video.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 326px 655px 308px 620px;
   border-radius: 30px;
 }
-.video{
+.video {
   height: 183px;
   width: 183px;
   border-radius: 50%;
   background-color: #e900231c;
+  animation: animate-pulse 3s linear;
+  cursor: pointer;
+}
+@keyframes animate-pulse {
+  0% {
+    box-shadow:
+      0 0 0 0 rgba(255, 74, 74, 0.7),
+      0 0 0 0 rgba(255, 74, 74, 0.7);
+  }
+  40% {
+    box-shadow:
+      0 0 0 50px rgba(255, 109, 74, 0),
+      0 0 0 0 rgba(255, 74, 74, 0.7);
+  }
+  80% {
+    box-shadow:
+      0 0 0 50px rgba(255, 109, 74, 0),
+      0 0 0 30px rgba(255, 109, 74, 0);
+  }
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(255, 109, 74, 0),
+      0 0 0 30px rgba(255, 109, 74, 0);
+  }
+}
+
+
+
+/* pump insta */
+
+#pump-insta .instra-work-content{
+  height: 505px;
+  padding: 67px 50px;
 }
