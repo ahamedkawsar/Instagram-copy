@@ -3,6 +3,14 @@
   --color-primary: #e90024;
 }
 
+li {
+  list-style: none;
+}
+
+ul{
+  padding-left: 0px;
+}
+
 /* nav bar  */
 
 .navbar {
@@ -148,11 +156,35 @@ h3 {
   }
 }
 
-
-
 /* pump insta */
 
-#pump-insta .instra-work-content{
+#pump-insta {
+  padding: 150px 0px;
+  background-color: #f4f4f4;
+}
+
+#pump-insta .instra-work-content {
   height: 505px;
   padding: 67px 50px;
 }
+
+/* purchas-part */
+
+.purchase-content {
+  padding: 65px 90px;
+  box-shadow: 0px 15px 50px 0px #00000015;
+  border-radius: 30px;
+  text-align: center;
+}
+.purchase-content h4{
+  padding: 11px 68px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color:#e9002328;
+}
+.purchase-content h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+
