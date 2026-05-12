@@ -7,7 +7,7 @@ li {
   list-style: none;
 }
 
-ul{
+ul {
   padding-left: 0px;
 }
 
@@ -169,6 +169,9 @@ h3 {
 }
 
 /* purchas-part */
+#Purchase {
+  position: relative;
+}
 
 .purchase-content {
   padding: 65px 90px;
@@ -176,15 +179,107 @@ h3 {
   border-radius: 30px;
   text-align: center;
 }
-.purchase-content h4{
+.purchase-content h4 {
   padding: 11px 68px;
   font-size: 20px;
   font-weight: 600;
   color: var(--color-primary);
-  background-color:#e9002328;
+  background-color: #e9002328;
 }
-.purchase-content h3{
+.purchase-content h3 {
   font-size: 25px;
   font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.purchase-content ul li {
+  font-size: 16px;
+  line-height: 40px;
+}
+.purchase-content ul li i {
+  padding-right: 10px;
+}
+
+.purchase-content h2 {
+  padding: 40px 0px 50px 0px;
+}
+
+.purchase-content .btn-danger {
+  background-color: transparent;
+  border: 1px solid;
+  color: var(--color-primary);
+}
+.purchase-content .btn-danger:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+#Purchase .dots {
+  position: absolute;
+  top: 0px;
+  right: 143px;
+}
+
+/* ratigs-part */
+.ratigs {
+  width: 424px;
+ 
+  box-shadow: 0px 15px 50px 0px #00000015;
+  border-radius: 30px;
+  padding: 41px 42px 25px 42px;
+}
+
+.rating-comment {
+  padding: 36px 54px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+.rating-comment p {
+  margin-top: 20px;
+  line-height: 26px;
+  color: #787878;
+}
+
+.for-i {
+  margin-top: 20px;
+}
+
+
+/* accordian-part */
+
+
+.accordion-header {
+  padding: 38px 37px;
+  border-radius: 20px;
+    font-size: 20px;
+    font-weight:600;
+}
+.accordion-button:not(.collapsed) {
+    color: #ff0000;
+    background-color: transparent;
+  }
+  .accordion-button:focus {
+  
+    box-shadow:0px 0px 0px 0px;
+}
+
+.accordion-button::after {
+
+    background-image: url(../img/Vector\ \(2\).png);
+   
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/Frame\ \(5\).png);
+    
+}
+.accordion-item {
+    border-radius: 20px !important;
+    margin-top: 20px;
+    border: 1px solid  #E8E8E8 !important;
+
+}
+.accordion-body {
+padding: 15px 32px 38px 32px;
 }
 
